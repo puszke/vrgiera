@@ -2399,11 +2399,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1161044914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b138907cde6d48e47b3160b06a17d0b9, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d95e1819de387741a6338e8afb09752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 1161044915}
-  player: {fileID: 1237504138}
 --- !u!1 &1196330704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6501755809687671949, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -2494,11 +2492,6 @@ CanvasRenderer:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6707876468356395517, guid: 037ba65d346be2a48ad006b9a9a3873e, type: 3}
   m_PrefabInstance: {fileID: 420042991}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1237504138 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 9014170783777442263}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1247873230
 GameObject:
