@@ -1,4 +1,5 @@
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
@@ -28,21 +29,40 @@ public class EnemyStateManager : MonoBehaviour
         navAgent = GetComponent<NavMeshAgent>();
         navAgent.autoTraverseOffMeshLink = false;
     }
+=======
+
+public class EnemyStateManager : MonoBehaviour
+{
+    EnemyBaseState currentState;
+    public EnemyIdleState idleState = new EnemyIdleState();
+    public EnemyWalkingState walkingState = new EnemyWalkingState();
+    public EnemyClimbingState climbingState = new EnemyClimbingState();
+
+>>>>>>> 0d21830 (Enemy State Machine in progress)
 
     private void Start()
     {
         currentState = idleState;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0d21830 (Enemy State Machine in progress)
         currentState.EnterState(this);
     }
 
     private void Update()
     {
+<<<<<<< HEAD
         currentState?.UpdateState(this);
+=======
+        currentState.UpdateState(this);
+>>>>>>> 0d21830 (Enemy State Machine in progress)
     }
 
     public void SwitchState(EnemyBaseState state)
     {
         currentState = state;
+<<<<<<< HEAD
         currentState?.EnterState(this);
     }
 
@@ -51,3 +71,8 @@ public class EnemyStateManager : MonoBehaviour
         gameObject.SetActive(false);
     }
 }
+=======
+        currentState.EnterState(this);
+    }
+}
+>>>>>>> 0d21830 (Enemy State Machine in progress)

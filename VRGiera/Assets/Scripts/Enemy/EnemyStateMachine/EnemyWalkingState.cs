@@ -4,14 +4,19 @@ public class EnemyWalkingState : EnemyBaseState
 {
     public override void EnterState(EnemyStateManager enemy)
     {
+<<<<<<< HEAD
         if (enemy.PlayerTarget != null)
         {
             enemy.NavAgent.SetDestination(enemy.PlayerTarget.position);
         }
+=======
+        Debug.Log("Walking!...");
+>>>>>>> 0d21830 (Enemy State Machine in progress)
     }
 
     public override void UpdateState(EnemyStateManager enemy)
     {
+<<<<<<< HEAD
         if (enemy.PlayerTarget == null)
         {
             return;
@@ -31,9 +36,15 @@ public class EnemyWalkingState : EnemyBaseState
         {
             enemy.ExecutePlayer();
         }
+=======
+>>>>>>> 0d21830 (Enemy State Machine in progress)
     }
 
     public override void OnCollisionEnter(EnemyStateManager enemy)
     {
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0d21830 (Enemy State Machine in progress)

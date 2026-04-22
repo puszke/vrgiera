@@ -1,4 +1,5 @@
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.AI;
 
 public class EnemyClimbingState : EnemyBaseState
@@ -37,3 +38,21 @@ public class EnemyClimbingState : EnemyBaseState
     {
     }
 }
+=======
+
+public class EnemyClimbingState : EnemyBaseState
+{
+    public override void EnterState(EnemyStateManager enemy)
+    {
+    }
+
+
+    public override void UpdateState(EnemyStateManager enemy)
+    {
+    }
+    public override void OnCollisionEnter(EnemyStateManager enemy)
+    {
+        throw new System.NotImplementedException();
+    }
+}
+>>>>>>> 0d21830 (Enemy State Machine in progress)
