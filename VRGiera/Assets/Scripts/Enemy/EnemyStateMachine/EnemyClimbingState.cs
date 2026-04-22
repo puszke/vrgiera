@@ -1,5 +1,6 @@
 using UnityEngine;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using UnityEngine.AI;
 
 public class EnemyClimbingState : EnemyBaseState
@@ -39,6 +40,8 @@ public class EnemyClimbingState : EnemyBaseState
     }
 }
 =======
+=======
+>>>>>>> 2c12e68 (Enemy State Machine in progress)
 
 public class EnemyClimbingState : EnemyBaseState
 {
@@ -55,4 +58,7 @@ public class EnemyClimbingState : EnemyBaseState
         throw new System.NotImplementedException();
     }
 }
+<<<<<<< HEAD
 >>>>>>> 0d21830 (Enemy State Machine in progress)
+=======
+>>>>>>> 2c12e68 (Enemy State Machine in progress)
