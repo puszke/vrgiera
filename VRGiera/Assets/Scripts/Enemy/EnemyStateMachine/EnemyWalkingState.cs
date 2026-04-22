@@ -6,6 +6,7 @@ public class EnemyWalkingState : EnemyBaseState
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (enemy.PlayerTarget != null)
         {
             enemy.NavAgent.SetDestination(enemy.PlayerTarget.position);
@@ -16,10 +17,14 @@ public class EnemyWalkingState : EnemyBaseState
 =======
         Debug.Log("Walking!...");
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
+=======
+        Debug.Log("Walking!...");
+>>>>>>> 65a7485 (Enemy State Machine in progress)
     }
 
     public override void UpdateState(EnemyStateManager enemy)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (enemy.PlayerTarget == null)
@@ -45,11 +50,14 @@ public class EnemyWalkingState : EnemyBaseState
 >>>>>>> 0d21830 (Enemy State Machine in progress)
 =======
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
+=======
+>>>>>>> 65a7485 (Enemy State Machine in progress)
     }
 
     public override void OnCollisionEnter(EnemyStateManager enemy)
     {
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 }
@@ -59,3 +67,6 @@ public class EnemyWalkingState : EnemyBaseState
 =======
 }
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
+=======
+}
+>>>>>>> 65a7485 (Enemy State Machine in progress)

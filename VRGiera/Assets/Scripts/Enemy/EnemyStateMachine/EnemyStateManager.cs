@@ -1,6 +1,7 @@
 using UnityEngine;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
@@ -33,6 +34,8 @@ public class EnemyStateManager : MonoBehaviour
 =======
 =======
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
+=======
+>>>>>>> 65a7485 (Enemy State Machine in progress)
 
 public class EnemyStateManager : MonoBehaviour
 {
@@ -42,26 +45,34 @@ public class EnemyStateManager : MonoBehaviour
     public EnemyClimbingState climbingState = new EnemyClimbingState();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0d21830 (Enemy State Machine in progress)
 =======
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
+=======
+>>>>>>> 65a7485 (Enemy State Machine in progress)
 
     private void Start()
     {
         currentState = idleState;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0d21830 (Enemy State Machine in progress)
 =======
 
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
+=======
+
+>>>>>>> 65a7485 (Enemy State Machine in progress)
         currentState.EnterState(this);
     }
 
     private void Update()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         currentState?.UpdateState(this);
@@ -71,11 +82,15 @@ public class EnemyStateManager : MonoBehaviour
 =======
         currentState.UpdateState(this);
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
+=======
+        currentState.UpdateState(this);
+>>>>>>> 65a7485 (Enemy State Machine in progress)
     }
 
     public void SwitchState(EnemyBaseState state)
     {
         currentState = state;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         currentState?.EnterState(this);
@@ -96,3 +111,8 @@ public class EnemyStateManager : MonoBehaviour
     }
 }
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
+=======
+        currentState.EnterState(this);
+    }
+}
+>>>>>>> 65a7485 (Enemy State Machine in progress)

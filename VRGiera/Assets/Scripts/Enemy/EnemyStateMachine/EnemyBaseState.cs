@@ -7,6 +7,7 @@ public abstract class EnemyBaseState
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public abstract void OnCollisionEnter(EnemyStateManager enemy);
 }
 =======
@@ -20,3 +21,7 @@ public abstract class EnemyBaseState
     public abstract void OnCollisionEnter(EnemyStateManager enemy, col);
 }
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
+=======
+    public abstract void OnCollisionEnter(EnemyStateManager enemy, col);
+}
+>>>>>>> 65a7485 (Enemy State Machine in progress)
