@@ -23,6 +23,6 @@ public class EnemyIdleState : EnemyBaseState
 
     public override void OnCollisionEnter(EnemyStateManager enemy)
     {
-        if()
+      
     }
 }
