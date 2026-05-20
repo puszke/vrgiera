@@ -38,10 +38,14 @@ public class EnemyIdleState : EnemyBaseState
     public override void OnCollisionEnter(EnemyStateManager enemy)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 }
 =======
         if()
+=======
+      
+>>>>>>> 361b31d (fix)
     }
 }
 >>>>>>> 0d21830 (Enemy State Machine in progress)
