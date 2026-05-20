@@ -65,6 +65,7 @@ public class EnemyIdleState : EnemyBaseState
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 }
 =======
@@ -77,6 +78,9 @@ public class EnemyIdleState : EnemyBaseState
 >>>>>>> 0d21830 (Enemy State Machine in progress)
 =======
         if()
+=======
+      
+>>>>>>> 323881f (fix)
     }
 }
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
