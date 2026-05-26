@@ -5,6 +5,7 @@ public class EnemyIdleState : EnemyBaseState
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private float elapsedTime;
 
     public override void EnterState(EnemyStateManager enemy)
@@ -27,10 +28,18 @@ public class EnemyIdleState : EnemyBaseState
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
 =======
 >>>>>>> 65a7485 (Enemy State Machine in progress)
+=======
+    private float elapsedTime;
+
+    public override void EnterState(EnemyStateManager enemy)
+    {
+        elapsedTime = 0f;
+>>>>>>> 2e19f19 (EnemyClimbing)
     }
 
     public override void UpdateState(EnemyStateManager enemy)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +63,11 @@ public class EnemyIdleState : EnemyBaseState
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
 =======
 >>>>>>> 65a7485 (Enemy State Machine in progress)
+=======
+        elapsedTime += Time.deltaTime;
+
+        if (elapsedTime > enemy.StateChangeDelay)
+>>>>>>> 2e19f19 (EnemyClimbing)
         {
             enemy.SwitchState(enemy.walkingState);
         }
@@ -61,6 +75,7 @@ public class EnemyIdleState : EnemyBaseState
 
     public override void OnCollisionEnter(EnemyStateManager enemy)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,3 +104,7 @@ public class EnemyIdleState : EnemyBaseState
     }
 }
 >>>>>>> 65a7485 (Enemy State Machine in progress)
+=======
+    }
+}
+>>>>>>> 2e19f19 (EnemyClimbing)
