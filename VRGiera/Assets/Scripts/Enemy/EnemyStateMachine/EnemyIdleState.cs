@@ -2,20 +2,18 @@ using UnityEngine;
 
 public class EnemyIdleState : EnemyBaseState
 {
-    private float timeToTest;
-    
+    private float elapsedTime;
+
     public override void EnterState(EnemyStateManager enemy)
     {
-        
+        elapsedTime = 0f;
     }
 
     public override void UpdateState(EnemyStateManager enemy)
     {
+        elapsedTime += Time.deltaTime;
 
-        timeToTest += Time.deltaTime;
-        Debug.Log("Time to test is: " + timeToTest);
-
-        if(timeToTest > 2f)
+        if (elapsedTime > enemy.StateChangeDelay)
         {
             enemy.SwitchState(enemy.walkingState);
         }
@@ -23,6 +21,5 @@ public class EnemyIdleState : EnemyBaseState
 
     public override void OnCollisionEnter(EnemyStateManager enemy)
     {
-      
     }
 }
