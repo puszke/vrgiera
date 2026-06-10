@@ -61,4 +61,11 @@ public class safeKeypad : MonoBehaviour
             door.SetActive(false);
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.transform.tag=="b")
+        {
+            Unlock();
+        }
+    }
 }
