@@ -48,6 +48,6 @@ public class EnemyStateManager : MonoBehaviour
 
     public void ExecutePlayer()
     {
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }
