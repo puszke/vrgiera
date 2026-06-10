@@ -6,7 +6,7 @@ public class Toaster : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent(out Toast toast))
         {
-            SceneSystemManager.Instance.LoadScene("Dorian");
+            SceneSystemManager.Instance.LoadScene("Gameplay");
             Debug.Log("Works");
         }
     }

@@ -5,9 +5,13 @@ TagManager:
   serializedVersion: 3
   tags:
   - Anchor
+<<<<<<< HEAD
   - skibi
   - sph
   - b
+=======
+  - Enemy
+>>>>>>> 80dbeef (Changes)
   layers:
   - Default
   - TransparentFX
@@ -39,7 +43,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - XR Simulation
   - 
   m_SortingLayers:
   - name: Default
