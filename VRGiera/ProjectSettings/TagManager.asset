@@ -6,12 +6,16 @@ TagManager:
   tags:
   - Anchor
 <<<<<<< HEAD
+<<<<<<< HEAD
   - skibi
   - sph
   - b
 =======
   - Enemy
 >>>>>>> 80dbeef (Changes)
+=======
+  - Enemy
+>>>>>>> origin/Dorians
   layers:
   - Default
   - TransparentFX

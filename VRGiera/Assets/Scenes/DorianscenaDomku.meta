@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:VRGiera/Assets/Scenes/DorianscenaDomku.meta
 guid: 0422a972eeb549443917d3bc7cec1f4d
 folderAsset: yes
+========
+guid: 0b76a8672af29fa43ad5408777b0859e
+>>>>>>>> origin/Dorians:VRGiera/Assets/Scenes/Gameplay.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

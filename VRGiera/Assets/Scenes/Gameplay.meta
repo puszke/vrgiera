@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:VRGiera/Assets/3D/toster/kuchnia/półki/Materials/półki_DefaultMaterial_BaseMap.mat.meta
 guid: 8a39b2520b6089248a9635b603731c9e
 NativeFormatImporter:
@@ -9,6 +10,12 @@ DefaultImporter:
 >>>>>>>> 80dbeef (Changes):VRGiera/Assets/Scenes/Gameplay.meta
   externalObjects: {}
   mainObjectFileID: 2100000
+=======
+guid: 9cd873869bae09a4b996c5f6954849ac
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+>>>>>>> origin/Dorians
   userData: 
   assetBundleName: 
   assetBundleVariant: 

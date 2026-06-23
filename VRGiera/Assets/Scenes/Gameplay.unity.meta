@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:VRGiera/Assets/3D/toster/kuchnia/półki/Materials.meta
 guid: a41538f892282e0489faa3cd9f24428f
 folderAsset: yes
 ========
 guid: 0b76a8672af29fa43ad5408777b0859e
 >>>>>>>> 80dbeef (Changes):VRGiera/Assets/Scenes/Gameplay.unity.meta
+=======
+<<<<<<<< HEAD:VRGiera/Assets/Scenes/DorianscenaDomku.meta
+guid: 0422a972eeb549443917d3bc7cec1f4d
+folderAsset: yes
+========
+guid: 0b76a8672af29fa43ad5408777b0859e
+>>>>>>>> origin/Dorians:VRGiera/Assets/Scenes/Gameplay.unity.meta
+>>>>>>> origin/Dorians
 DefaultImporter:
   externalObjects: {}
   userData: 

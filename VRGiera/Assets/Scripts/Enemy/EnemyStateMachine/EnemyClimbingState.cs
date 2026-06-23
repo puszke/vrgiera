@@ -3,6 +3,9 @@ using UnityEngine;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Dorians
 using UnityEngine.AI;
 
 public class EnemyClimbingState : EnemyBaseState
@@ -40,6 +43,7 @@ public class EnemyClimbingState : EnemyBaseState
     public override void OnCollisionEnter(EnemyStateManager enemy)
     {
     }
+<<<<<<< HEAD
 }
 =======
 =======
@@ -97,3 +101,6 @@ public class EnemyClimbingState : EnemyBaseState
 =======
 }
 >>>>>>> 2e19f19 (EnemyClimbing)
+=======
+}
+>>>>>>> origin/Dorians

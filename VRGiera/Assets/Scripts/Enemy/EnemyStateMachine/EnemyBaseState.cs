@@ -9,6 +9,7 @@ public abstract class EnemyBaseState
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public abstract void OnCollisionEnter(EnemyStateManager enemy);
 <<<<<<< HEAD
 }
@@ -33,3 +34,7 @@ public abstract class EnemyBaseState
 =======
 }
 >>>>>>> 2e19f19 (EnemyClimbing)
+=======
+    public abstract void OnCollisionEnter(EnemyStateManager enemy);
+}
+>>>>>>> origin/Dorians

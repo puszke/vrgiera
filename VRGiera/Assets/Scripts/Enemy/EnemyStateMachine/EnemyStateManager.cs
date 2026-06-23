@@ -3,6 +3,9 @@ using UnityEngine;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Dorians
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
@@ -32,6 +35,7 @@ public class EnemyStateManager : MonoBehaviour
         navAgent = GetComponent<NavMeshAgent>();
         navAgent.autoTraverseOffMeshLink = false;
     }
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2c12e68 (Enemy State Machine in progress)
@@ -78,6 +82,8 @@ public class EnemyStateManager : MonoBehaviour
         navAgent.autoTraverseOffMeshLink = false;
     }
 >>>>>>> 2e19f19 (EnemyClimbing)
+=======
+>>>>>>> origin/Dorians
 
     private void Start()
     {
@@ -86,6 +92,7 @@ public class EnemyStateManager : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0d21830 (Enemy State Machine in progress)
@@ -97,6 +104,8 @@ public class EnemyStateManager : MonoBehaviour
 >>>>>>> 65a7485 (Enemy State Machine in progress)
 =======
 >>>>>>> 2e19f19 (EnemyClimbing)
+=======
+>>>>>>> origin/Dorians
         currentState.EnterState(this);
     }
 
@@ -106,6 +115,7 @@ public class EnemyStateManager : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         currentState?.UpdateState(this);
 =======
         currentState.UpdateState(this);
@@ -119,6 +129,9 @@ public class EnemyStateManager : MonoBehaviour
 =======
         currentState?.UpdateState(this);
 >>>>>>> 2e19f19 (EnemyClimbing)
+=======
+        currentState?.UpdateState(this);
+>>>>>>> origin/Dorians
     }
 
     public void SwitchState(EnemyBaseState state)
@@ -128,6 +141,9 @@ public class EnemyStateManager : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Dorians
         currentState?.EnterState(this);
     }
 
@@ -135,6 +151,7 @@ public class EnemyStateManager : MonoBehaviour
     {
         Destroy(gameObject);
     }
+<<<<<<< HEAD
 }
 =======
         currentState.EnterState(this);
@@ -161,3 +178,6 @@ public class EnemyStateManager : MonoBehaviour
     }
 }
 >>>>>>> 2e19f19 (EnemyClimbing)
+=======
+}
+>>>>>>> origin/Dorians
